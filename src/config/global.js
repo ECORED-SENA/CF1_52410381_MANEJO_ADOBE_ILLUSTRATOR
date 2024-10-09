@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Conociendo Adobe Illustrator',
+    descripcionCurso:
+      'Este componente formativo sobre Adobe Illustrator cubre los conceptos básicos de gráficos vectoriales y mapas de bits, destacando las diferencias entre ambos. Explica las funciones clave del software, su interfaz, y cómo iniciar y manejar proyectos de diseño gráfico. También aborda la organización del espacio de trabajo y ofrece propuestas didácticas y recursos complementarios para reforzar el aprendizaje.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,39 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es Adobe Illustrator?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es un gráfico vectorial?',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '¿Cuál es la diferencia de un vector con un mapa de <em>bits</em>?',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: '¿Cómo funciona?',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Conociendo la interfaz, el entorno básico de Adobe lllustrator',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'El espacio de trabajo, organización y distribución',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +119,71 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '¿Qué es Adobe Illustrator? ',
+      referencia:
+        'Visualbit Studio. (2021). ¿<em>Qué es Adobe Illustrator, para qué sirve y cuáles son sus versiones</em>? (video). YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YlkOfntMYSM  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Adobe Illustrator',
+      significado:
+        '<em>software</em> de diseño gráfico especializado en la creación de gráficos vectoriales. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Barra de menú',
+      significado:
+        'sección de la interfaz que contiene los menús desplegables tradicionales del <em>software</em>. ',
+    },
+    {
+      termino: 'Capas',
+      significado:
+        'herramienta que permite organizar los elementos gráficos en diferentes niveles dentro de un documento. ',
+    },
+    {
+      termino: 'Color',
+      significado:
+        'propiedad que define el aspecto visual de un objeto, seleccionable en el panel de muestras. ',
+    },
+    {
+      termino: 'Cuadrículas',
+      significado:
+        'líneas de referencia que ayudan a alinear objetos en la mesa de trabajo. ',
+    },
+    {
+      termino: 'Documentos',
+      significado:
+        'archivos de trabajo en Adobe Illustrator, donde se crean y editan los diseños. ',
+    },
+    {
+      termino: 'Guías',
+      significado:
+        'líneas auxiliares que se utilizan para alinear y posicionar objetos de manera precisa. ',
+    },
+    {
+      termino: 'Interfaz',
+      significado:
+        'conjunto de herramientas y paneles que conforman el entorno de trabajo del <em>software</em>. ',
+    },
+    {
+      termino: 'Mapa de <em>bits</em>',
+      significado:
+        'imágenes formadas por píxeles que representan colores individuales. ',
+    },
+    {
+      termino: 'Vector',
+      significado:
+        'gráfico matemático que puede escalarse sin pérdida de calidad visual. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Adobe Blogs. (2014). La liberación de 2014 ¡Illustrator CC está aquí! ',
+      link:
+        'http://blogs.adobe.com/adobeillustrator/?s=Splash-Image-Only_sm.jpg ',
     },
   ],
   creditos: [
@@ -165,7 +221,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
