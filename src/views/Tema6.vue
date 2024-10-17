@@ -35,8 +35,8 @@
         figure
           img(src="@/assets/curso/tema6/3.png")
       .col-lg-9(data-aos="fade-up")
-        .p-4.h-100.d-fllex.align-content-center.flex-wrap.p-relative(style="background-color:#FFEACC;")
-          img.d-none.d-lg-block(src="@/assets/curso/tema6/4.png" style="position:absolute;max-width:fit-content;right:0;bottom:0;")
+        .p-4.h-100.d-fllex.align-content-center.flex-wrap.p-relative(style="background-color:#FFEACC;overflow:hidden;")
+          img(src="@/assets/curso/tema6/4.png" style="position:absolute;max-width:fit-content;right:0;bottom:0;")
           .row
             .col
               p #[strong Compartir documento:] al hacer clic en este ícono, puede invitar rápidamente a otras personas a colaborar en su documento. Asegúrese de guardar el archivo como un documento en la nube antes de compartirlo.
