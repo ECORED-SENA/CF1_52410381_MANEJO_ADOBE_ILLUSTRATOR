@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conociendo Adobe Illustrator',
     descripcionCurso:
-      'Este componente formativo sobre Adobe Illustrator cubre los conceptos básicos de gráficos vectoriales y mapas de bits, destacando las diferencias entre ambos. Explica las funciones clave del software, su interfaz, y cómo iniciar y manejar proyectos de diseño gráfico. También aborda la organización del espacio de trabajo y ofrece propuestas didácticas y recursos complementarios para reforzar el aprendizaje.',
+      'Este componente formativo sobre Adobe Illustrator cubre los conceptos básicos de gráficos vectoriales y mapas de <em>bits</em>, destacando las diferencias entre ambos. Explica las funciones clave del <em>software</em>, su interfaz, y cómo iniciar y manejar proyectos de diseño gráfico. También aborda la organización del espacio de trabajo y ofrece propuestas didácticas y recursos complementarios para reforzar el aprendizaje.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -182,8 +182,7 @@ export default {
     {
       referencia:
         'Adobe Blogs. (2014). La liberación de 2014 ¡Illustrator CC está aquí! ',
-      link:
-        'http://blogs.adobe.com/adobeillustrator/?s=Splash-Image-Only_sm.jpg ',
+      link: '',
     },
   ],
   creditos: [
@@ -206,8 +205,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'José Luis Díaz Carrillo',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroindustrial - Regional Quindio',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -216,18 +220,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -236,13 +235,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

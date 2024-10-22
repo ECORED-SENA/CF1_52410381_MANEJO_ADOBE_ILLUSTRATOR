@@ -72,7 +72,7 @@
                       img(src="@/assets/curso/tema5/4.svg")
                   .col.ps-1(style="place-self:center;")
                     h5.mb-0.pe-3 Barra de herramientas
-              p Se sitúa generalmente en el lado izquierdo de la interfaz. Contiene todas las herramientas necesarias para crear y manipular gráficos vectoriales. Las herramientas están agrupadas por función, incluyendo herramientas de selección, dibujo, tipografía, pintura, y manipulación de objetos. Algunas herramientas tienen opciones adicionales, a las que se puede acceder haciendo clic derecho o mantener presionado sobre la herramienta en la barra.
+              p Se sitúa generalmente en el lado izquierdo de la interfaz. Contiene todas las herramientas necesarias para crear y manipular gráficos vectoriales. Las herramientas están agrupadas por función, incluyendo herramientas de selección, dibujo, tipografía, pintura, y manipulación de objetos. Algunas herramientas tienen opciones adicionales, a las que se puede acceder haciendo clic derecho o manteniendo presionado sobre la herramienta en la barra.
             .col-lg-5
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema5/8.png')

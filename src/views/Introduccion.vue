@@ -10,7 +10,7 @@
     
     .row
       .col-lg-8(data-aos="fade-up")
-        p Actualmente, el diseño gráfico y el manejo de imágenes son primordiales en medios masivos. En respuesta a esto, el #[em software] de diseño gráfico se desarrolla a un ritmo vertiginoso, ofreciendo mayor velocidad de trabajo y proporcionando mejores herramientas para llevar a cabo diferentes proyectos, de forma versátil y práctica, ampliado así los límites de lo que se puede generar y reduciendo dramáticamente los tiempos que toman en realizarse.
+        p Actualmente, el diseño gráfico y el manejo de imágenes son primordiales en medios masivos. En respuesta a esto, el #[em software] de diseño gráfico se desarrolla a un ritmo vertiginoso, ofreciendo mayor velocidad de trabajo y proporcionando mejores herramientas para llevar a cabo diferentes proyectos, de forma versátil y práctica, ampliando así los límites de lo que se puede generar y reduciendo dramáticamente los tiempos que toman en realizarse.
         .p-4.mt-4(style="background-color:#FFD69B;")
           .row
             .col-auto.d-none.d-md-block(style="place-self:center;")
