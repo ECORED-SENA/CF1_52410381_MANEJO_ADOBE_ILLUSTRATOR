@@ -62,7 +62,7 @@ export default {
         nombreRuta: 'tema5',
         numero: '5',
         titulo:
-          'Conociendo la interfaz, el entorno básico de Adobe lllustrator',
+          'Conociendo la interfaz, el entorno básico de Adobe Illustrator',
         desarrolloContenidos: true,
       },
       {

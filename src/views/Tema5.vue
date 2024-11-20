@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1  Conociendo la interfaz, el entorno básico de Adobe lllustrator 
+      h1  Conociendo la interfaz, el entorno básico de Adobe Illustrator
     
     p(data-aos="fade-down") La interfaz de Adobe Illustrator está diseñada para ofrecer un entorno de trabajo flexible y eficiente, adecuado para diseñadores gráficos, ilustradores y otros profesionales creativos. La siguiente imagen presenta sus principales componentes.
 
@@ -59,7 +59,7 @@
                       img(src="@/assets/curso/tema5/4.svg")
                   .col.ps-1(style="place-self:center;")
                     h5.mb-0.pe-3 Panel de control
-              p Ubicado justo debajo de la barra de aplicaciones, muestra opciones contextuales que cambian según la herramienta o el objeto seleccionado. Por ejemplo, si selecciona una herramienta de texto, el panel de control mostrará opciones para cambiar la fuente, el tamaño, el color, el kerning, y otras propiedades relacionadas. Este panel es fundamental para ajustar rápidamente las propiedades de los objetos, sin tener que navegar por diferentes menús.
+              p Ubicado justo debajo de la barra de aplicaciones, muestra opciones contextuales que cambian según la herramienta o el objeto seleccionado. Por ejemplo, si selecciona una herramienta de texto, el panel de control mostrará opciones para cambiar la fuente, el tamaño, el color, el #[i kerning], y otras propiedades relacionadas. Este panel es fundamental para ajustar rápidamente las propiedades de los objetos, sin tener que navegar por diferentes menús.
             .col-lg-5
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema5/7.png')
@@ -140,7 +140,7 @@
                       img(src="@/assets/curso/tema5/4.svg")
                   .col.ps-1(style="place-self:center;")
                     h5.mb-0.pe-3 Estado del documento
-              p En la parte inferior de la interfaz, encontrará información sobre el estado del documento, como el nivel de zoom actual, el número de mesas de trabajo, el modo de color, y el perfil de documento. También puede acceder rápidamente a la resolución del archivo y otras configuraciones importantes.
+              p En la parte inferior de la interfaz, encontrará información sobre el estado del documento, como el nivel de #[i zoom] actual, el número de mesas de trabajo, el modo de color, y el perfil de documento. También puede acceder rápidamente a la resolución del archivo y otras configuraciones importantes.
             .col-lg-5
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema5/12.png')

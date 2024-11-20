@@ -17,7 +17,7 @@
               figure(data-aos="zoom-in-right" data-aos-duration="1000")
                 img(src="@/assets/curso/intro1.svg")
             .col(style="place-self:center;")
-              p.mb-0 Por consiguiente en este material de formación se explicarán las bases del manejo de #[strong Adobe lllustrator], se aprenderá a concebir la imagen desde su conformación vectorial o como mapa de bits, se tratarán las funciones esenciales, así como los conocimientos requeridos para la preparación de un nuevo proyecto en este #[em software].
+              p.mb-0 Por consiguiente en este material de formación se explicarán las bases del manejo de #[strong Adobe Illustrator], se aprenderá a concebir la imagen desde su conformación vectorial o como mapa de bits, se tratarán las funciones esenciales, así como los conocimientos requeridos para la preparación de un nuevo proyecto en este #[em software].
         .row.mt-4.justify-content-center
           .col-auto.mb-3
             figure(data-aos="fade-in-up" data-aos-delay="500")
